@@ -1,0 +1,36 @@
+{
+    "type": "itemTurret",
+    "name": "Diamond Turret",
+    "description": "Shoots Minecraft Diamond at enemies.",
+    "targetAir": true,
+    "targetGround": true,
+    "health": 200,
+    "size": 2,
+    "shootType": "BasicBulletType",
+    "inaccuracy": 10,
+    "reload": 7.5,
+    "shootCone": 30,
+    "rotateSpeed": 5,
+    "shots": 1,
+    "range": 200,
+    "ammo": {
+        "copper": {
+	      "type": "BasicBulletType"
+            "speed": 5,
+            "damage": 7,
+            "bulletWidth": 15,
+            "bulletHeight": 20,
+            "shootEffect": "hitBulletBig",
+            "smokeEffect": "shootSmall",
+            "ammoMultiplier": 3,
+	      "bulletSprite": "diamond-turret-diamond-bullets",
+                  }
+            },
+    "requirements": [
+        { "item": "copper", "amount": 200 },
+    ],
+    "category": "turret"
+    "shootSound": "dispenser"
+	"research": "duo",
+	"outlineIcon": false,
+}
